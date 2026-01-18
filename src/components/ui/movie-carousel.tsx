@@ -5,8 +5,6 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { Movie } from "@/types/movie";
 import { MovieCard } from "./movie-card";
-import { cn } from "@/lib/utils";
-
 interface MovieCarouselProps {
 	title: string;
 	movies: Movie[];
